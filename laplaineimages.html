@@ -6,12 +6,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="pole.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="img/favicon-32.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="img/favicon-64.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="img/favicon-96.png" type="image/png">
+  
   <title>La Plaine Images</title>
+
   <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
   <script type="text/javascript">
     function showImage1() {
@@ -69,50 +77,53 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-      aria-expanded="false" aria-label="Toggle navigation">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand apt" href="index.html">T.A.M.B.A.S</a>
+  
+    <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+  
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
+  
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link ap" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
+  
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Euratech
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
-            <a class="dropdown-item" href="#">Presentation</a>
-            <a class="dropdown-item" href="#">Company</a>
-            <a class="dropdown-item" href="#">Services</a>
+          <a class="nav-link dropdown-toggle ap" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
+          <div class="dropdown-menu deco ap" aria-labelledby="navbarDropdownMenuLink1">
+            <a class="dropdown-item dropc ap" href="presentation.html">Presentation</a>
+            <a class="dropdown-item dropc ap" href="companies.html">Companies</a>
+            <a class="dropdown-item dropc ap" href="services.html">Services</a>
           </div>
         </li>
+  
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Other technologic poles
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-            <a class="dropdown-item" href="#">pole 1</a>
-            <a class="dropdown-item" href="#">pole 2</a>
-            <a class="dropdown-item" href="#">pole 3</a>
-            <a class="dropdown-item" href="#">pole 4</a>
+
+          <a class="nav-link dropdown-toggle ap" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
+          <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
+            <a class="dropdown-item dropc ap" href="eurasante.html">Eurasanté</a>
+            <a class="dropdown-item dropc ap" href="laplaineimages.html">La plaine images</a>
+            <a class="dropdown-item dropc ap" href="creinnov.html">Cré'innov</a>
+            <a class="dropdown-item dropc ap" href="agtech.html">Agtech</a>
+
           </div>
         </li>
+  
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link ap" href="gallery.html">Gallery</a>
         </li>
+  
         <li class="nav-item">
-          <a class="nav-link" href="#">Galerie</a>
+          <a class="nav-link ap" href="contact.html">Contact</a>
         </li>
+        
       </ul>
     </div>
   </nav>
-  <div class="container">
+  <div class="container content">
     <!--Début contenu-->
     <div class="card">
       <div class="card-header">
@@ -122,14 +133,11 @@
         <div class="container">
           <div class="row">
             <div class="col-sm p-3">
-              <h3 class="card-title">A SITE OF EXCELLENCE DEDICATED TO CREATIVE INDUSTRIES</h3>
+              <h3 class="card-title">A site of excellence dedicated to creative indistries</h3>
               <p>The Plaine Images is located on a rehabilitated industrial site in Roubaix. A district totally
                 dedicated to creative indutries: audio-visual – game – AR/VR –
                 Design (virtual reality, video games, serious game/e-learning, animation, marketing digital...)
                 Innovative projects of industries of tomorrow are built in its incubator!</p>
-
-
-
             </div>
             <div class="col-sm p-3">
               <img class="plaineimage" src="data:image/png;base64,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"
@@ -155,7 +163,7 @@
                         lives.
                       </p>
                       <div class="col-auto p-3">
-                        <a href=" https://www.apf-francehandicap.org/handicap-et-nouvelles-technologies-9730" target="_blank"
+                        <a class="btn w-100 ap" href=" https://www.apf-francehandicap.org/handicap-et-nouvelles-technologies-9730" target="_blank"
                           class="btn w-100">Discover</a>
                       </div>
                     </div>
@@ -174,7 +182,7 @@
                       <p class="card-text">1P2P is a studio for development of independent video games for PC and home
                         consoles</p>
                       <div class="col-auto p-3">
-                        <a href=" http://1p2p-studio.com/" target="_blank" class="btn w-100">Discover</a>
+                        <a href=" http://1p2p-studio.com/" target="_blank" class="btn w-100 ap">Discover</a>
                       </div>
                     </div>
                   </div>
@@ -201,7 +209,7 @@
                         nominations and awards.
                       </p>
                       <div class="col-auto p-3">
-                        <a href="https://www.cybergroupstudios.com" target="_blank" class="btn w-100">Discover</a>
+                        <a href="https://www.cybergroupstudios.com" target="_blank" class="btn w-100 ap">Discover</a>
                       </div>
                     </div>
                   </div>
@@ -220,7 +228,7 @@
                         developer trades. The school was founded by training professionals and web enthusiasts.
                       </p>
                       <div class="col-auto p-3">
-                        <a href=" https://3wa.fr/" target="_blank" class="btn w-100">Discover</a>
+                        <a href=" https://3wa.fr/" target="_blank" class="btn w-100 ap">Discover</a>
                       </div>
                     </div>
                   </div>
@@ -235,7 +243,7 @@
 
             </div>
             <div class="col-auto p-3">
-              <a href="https://www.plaine-images.fr/" target="_blank" class="btn ">More info</a>
+              <a href="https://www.plaine-images.fr/" target="_blank" class="btn w-100 ap">More info</a>
             </div>
           </div>
         </div>
@@ -243,6 +251,22 @@
     </div>
     <!--Fin contenu-->
   </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
