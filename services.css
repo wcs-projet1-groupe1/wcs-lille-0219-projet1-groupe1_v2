@@ -1,0 +1,134 @@
+@font-face {
+font-family: 'oswald';
+src: url('oswald.eot');
+src: url('oswald.otf') format('truetype'),
+url('oswald.woff') format('woff'),
+url('oswald.eot?#iefix') format('embedded-opentype'),
+url('oswald.svg#QuadrantaBold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+*{-webkit-user-select: none;}
+
+body{background:#e3e3e3;}
+
+nav{
+background:#996840;
+border-bottom:2px solid #fdfdfd;
+top:0px;
+width: 100%;
+z-index: 100;
+}
+
+.nav-item{
+z-index: 1000010 ;
+}
+
+nav{
+background:#996840;
+border-bottom:2px solid #fdfdfd;
+top:0px;
+width: 100%;
+z-index: 100;
+}
+
+.sticky{
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 70px;
+}
+
+a{text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+color:#DBDBDB !important;
+font-size:16px;}
+
+a:hover {
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+text-shadow:#F3F1F1 0 0 3px!important;
+font-size:16px;
+transition:0.8s ease;
+color:#F3F1F1 !important;
+}
+
+.deco{background: #e3e3e3;
+border: 2px solid #fdfdfd;
+}
+
+.dropc{color: #50566b !important;}
+
+.dropdown-item:hover{background:#996840;}
+
+
+.hamber{
+background:#F3F1F1;
+border:2px solid #fdfdfd !important;
+}
+
+.btn{
+background:#996840 !important;
+border:transparent !important;
+box-shadow:#3f2d0b 0 0 5px;
+color:#DBDBDB;
+transition:0.8s ease;
+font:16px;
+padding:10px;
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+}
+
+.btn:hover{
+letter-spacing:0.5px;
+box-shadow:#3f2d0b 0 0 15px;
+font:16px;
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+}
+
+.titre_caté1{
+    font-family:oswald, sans-serif;
+    font-size:35px;
+    text-align:left;
+    color:#384982;
+}
+.titre_caté2{ 
+    font-family:oswald, sans-serif;
+    font-size:35px;
+    text-align:right;
+    margin-right:35px;
+    color:#384982;
+}
+
+.cardright-img{
+    height:225px;
+}
+.card-body{
+    height:225px;
+}
+.card-img{ 
+    height:225px;}
+
+@media only screen and (max-width:767px){
+a:hover{letter-spacing:0px;}
+}
+@media screen and (min-width:768px){
+a:hover{letter-spacing:0px;}
+}
+
+@media screen and (min-width:992px){
+a:hover{letter-spacing:1px;}
+}
+
+@media screen and (min-width:1200px){
+a:hover{letter-spacing:1px;}
+}
