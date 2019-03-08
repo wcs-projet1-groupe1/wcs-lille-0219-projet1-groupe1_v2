@@ -1,0 +1,84 @@
+*{font-family: 'Open Sans', sans-serif;
+    -webkit-user-select:none;
+text-align: justify;}
+
+body{background:#e3e3e3 !important;}
+
+nav{
+background:#996840;
+border-bottom:2px solid #fdfdfd;
+top:0px;
+width: 100%;
+z-index: 100;
+}
+
+.sticky{
+position: fixed !important;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 40px;
+}
+
+.content{
+    margin-top:40px;
+}
+
+h1,h2,h3{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+
+.nav-item{
+z-index: 1000010 ;
+}
+
+a{text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+color:#DBDBDB !important;
+font-size:16px;}
+
+a:hover {
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+text-shadow:#F3F1F1 0 0 3px!important;
+font-size:16px;
+transition:0.8s ease;
+color:#F3F1F1 !important;
+}
+
+.deco{background: #e3e3e3 !important;
+border: 2px solid #fdfdfd !important;
+}
+
+.dropc{color: #50566b !important;}
+
+.dropdown-item:hover{background:#996840 !important;}
+
+
+.hamber{
+background:#F3F1F1 !important;
+border:2px solid #fdfdfd !important;
+}
+
+p{
+color:#404040;
+}
+
+@media only screen and (max-width:767px){
+a:hover{letter-spacing:0px;}
+footer{display:none;}
+}
+@media screen and (min-width:768px){
+a:hover{letter-spacing:0px;}
+}
+
+@media screen and (min-width:992px){
+a:hover{letter-spacing:1px;}
+}
+
+@media screen and (min-width:1200px){
+a:hover{letter-spacing:1px;}
+}
