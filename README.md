@@ -1,3 +1,11 @@
-# wcs-lille-0219-projet1-groupe1_v2
+#Wild code school - Projet 1 Groupe 1
 
-Version 2 du projet
+**titre :** T.A.M.B.A.S
+
+**Projet Groupe 1**
+* Samuel Freche
+* Benoit lebacq
+* Axelle Adamkiewicz
+* Samyne Alexy
+* Marine Sausse
+* Tiphaine Dussart
