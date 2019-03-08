@@ -1,123 +1,136 @@
+*{font-family: 'Open Sans', sans-serif !important;
+-webkit-user-select: none;}
+
 #Description p::first-letter, #History p::first-letter{
-    font-weight:bold;
-    font-size: 150%;
+font-weight:bold;
+font-size: 150%;
 }
 
 .naveura{
-    background-color:#996840;
-    border-bottom:2px solid #fdfdfd;
-    top:7%;
-    width: 12.5%;
-    z-index: 100;
-    list-style:none;
-    display: block;
+background-color:#996840;
+border-bottom:2px solid #fdfdfd;
+border-right:2px solid #fdfdfd;
+border-top:2px solid #fdfdfd;
+top:11vh;
+width: 11vw;
+z-index: 10;
+list-style:none;
+display: block;
+left:-2.5vw;
 }
 
-.naveura ul {
+.naveura li {
 list-style: none;
-margin: 0;
+margin-top:5px;
 padding:2px;
-} 
+text-align: left;
+}
 
 .container ul{
-  list-style: square;
-  padding: 15px;
+list-style: square;
+padding: 15px;
 }
 
 .card-euratech{
-  background-color:#aaeda1 !important;
+background-color:#C3E6CB !important;
 }
 
 #squarelist{
-  list-style:square;
+list-style:square;
+}
+
+
+
+body{background:#e3e3e3;
+padding-top:0px;}
+
+nav{
+background:#996840;
+border-bottom:2px solid #fdfdfd;
+top:0px;
+width: 100%;
+z-index: 100;
+}
+
+.sticky{
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+.sticky + .content {
+padding-top: 70px;
+}
+
+
+#footerc{background:#996840;
+border-top:2px solid #fdfdfd;
+}
+
+h1{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+h3{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+h2{color:#50566b;
+  font-family: 'Oswald', sans-serif;}
+
+
+.nav-item{
+z-index: 1000010 ;
+}
+    
+a{
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+color:#DBDBDB !important;
+font-size:16px;}
+
+a:hover {
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+text-shadow:#F3F1F1 0 0 3px!important;
+font-size:16px;
+transition:0.8s ease;
+color:#F3F1F1 !important;
+}
+      
+.deco{background: #e3e3e3;
+border: 2px solid #fdfdfd;
+}
+
+.dropc{color: #50566b !important;}
+
+.dropdown-item:hover{background:#996840;}
+
+
+.hamber{
+background:#F3F1F1;
+border:2px solid #fdfdfd !important;
+}
+
+p{
+color:#404040 !important;
+}
+
+@media only screen and (max-width:767px){
+a:hover{letter-spacing:0px;}
+}
+@media screen and (min-width:768px){
+a:hover{letter-spacing:0px;}
+}
+
+@media screen and (min-width:992px){
+a:hover{letter-spacing:1px;}
+}
+
+@media screen and (min-width:1200px){
+a:hover{letter-spacing:1px;}
 }
 
 @media (max-width: 1520px) {
-    .naveura {
-      display: none;
-    }
-  }
-
-  *{font-family: 'Open Sans', sans-serif;
-    -webkit-user-select: none;}
-    
-    body{background:#e3e3e3;}
-    
-    nav{
-    background:#996840;
-    border-bottom:2px solid #fdfdfd;
-    top:0px;
-    width: 100%;
-    z-index: 100;
-    }
-    
-    .sticky{
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    
-    .sticky + .content {
-        padding-top: 70px;
-      }
-    
-    
-    #footerc{background:#996840;
-    border-top:2px solid #fdfdfd;
-    }
-    
-    h1{color:#50566b;}
-    h3{color:#50566b}
-    
-    .nav-item{
-        z-index: 1000010 ;
-    }
-    
-    a{text-decoration: none !important;
-        font-variant: normal !important;
-        text-transform: none !important;
-        color:#DBDBDB !important;
-        font-size:16px;}
-      
-      a:hover {
-        text-decoration: none !important;
-        font-variant: normal !important;
-        text-transform: none !important;
-        text-shadow:#F3F1F1 0 0 3px!important;
-        font-size:16px;
-        transition:0.8s ease;
-        color:#F3F1F1 !important;
-        }
-      
-      .deco{background: #e3e3e3;
-        border: 2px solid #fdfdfd;
-      }
-      
-      .dropc{color: #50566b !important;}
-    
-    .dropdown-item:hover{background:#996840;}
-    
-    
-    .hamber{
-        background:#F3F1F1;
-        border:2px solid #fdfdfd !important;
-      }
-    
-    p{
-        color:#404040;
-    }
-    
-    @media only screen and (max-width:767px){
-        a:hover{letter-spacing:0px;}
-      }
-    @media screen and (min-width:768px){
-        a:hover{letter-spacing:0px;}
-      }
-      
-    @media screen and (min-width:992px){
-        a:hover{letter-spacing:1px;}
-      }
-      
-    @media screen and (min-width:1200px){
-        a:hover{letter-spacing:1px;}
-    }
+.naveura {
+display: none;
+}
+}
