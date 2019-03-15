@@ -6,6 +6,6 @@
 * Samuel Freche
 * Benoit lebacq
 * Axelle Adamkiewicz
-* Samyne Alexy
+* Samyn Alexy
 * Marine Sausse
 * Tiphaine Dussart
