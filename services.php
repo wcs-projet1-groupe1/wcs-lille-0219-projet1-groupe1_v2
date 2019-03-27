@@ -9,56 +9,13 @@
     <link rel="icon" sizes="96x96" href="img/favicon-96.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="services.css">
-
     <title>Services</title>
   </head>
   <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">T.A.M.B.A.S</a>
-    
-      <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-    
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
-            <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item dropc" href="presentation.html">Presentation</a>
-              <a class="dropdown-item dropc" href="companies.html">Companies</a>
-              <a class="dropdown-item dropc" href="services.html">Services</a>
-            </div>
-          </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
-            <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
-              <a class="dropdown-item dropc" href="eurasante.html">Eurasanté</a>
-              <a class="dropdown-item dropc" href="laplaineimages.html">La plaine images</a>
-              <a class="dropdown-item dropc" href="creinnov.html">Cré'innov</a>
-              <a class="dropdown-item dropc" href="agtech.html">Agtech</a>
-            </div>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
+<?php require "nav.php"; ?>
+
 <div class="content">
-  <div class="container carousel1 float-left"><div class="titre_caté1">Healthy Food</div>
+  <div class="container carousel1"><div class="titre_caté1">Healthy Food</div>
     <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-ride="carousel">
 
 
@@ -73,7 +30,7 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">Nostrum</h5>
-                      <p class="card-text">Nostrum is a healty snack that sell 100% natural and handmade products. They sell cheap products for every wallets from 1€.</p>
+                      <p class="card-text">Nostrum is a healty snack that sell 100% natural and handmae products. They sell cheap products for every wallets from 1€.</p>
                       <br>
                       <a href="https://nostrum.fr/" target="_blank" class="btn float-right">Website</a>
                     </div>
@@ -93,7 +50,7 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">Bagels Corner</h5>
-                    <p class="card-text">Bagels Corner is the specialist of juicy bagels and donuts.</p>
+                    <p class="card-text">Bagels Corner is a the specialist of juicy bagels and donuts.</p>
                     <br>
                     <a href="https://www.bagelcorner.fr/blog/" target="_blank"  class="btn float-right">Website</a>
                   </div>
@@ -127,7 +84,7 @@
     </div>
 </div>
  
-<div class="container carousel2 float-right"><div class="titre_caté2">Street Food</div>
+<div class="container carousel2"><div class="titre_caté2">Street Food</div>
     <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-ride="carousel">
 
 
@@ -196,7 +153,7 @@
         </div>
         
       </div></div>
-      <div class="container carousel3 float-left"><div class="titre_caté1">Snacks</div>
+      <div class="container carousel3"><div class="titre_caté1">Snacks</div>
       <div id="carouselExampleFade3" class="carousel slide carousel-fade" data-ride="carousel">
 
 
@@ -258,8 +215,8 @@
         </div>
       </div>
     </div>
+ </div>
 </div>
-
   <script>
     window.onscroll = function() {myFunction()};
     

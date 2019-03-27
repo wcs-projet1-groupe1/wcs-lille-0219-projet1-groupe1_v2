@@ -16,58 +16,15 @@
 </head>
 
 <body>
+<?php require "nav.php"; ?>
 
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">T.A.M.B.A.S</a>
-    
-      <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-    
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
-            <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item dropc" href="presentation.html">Presentation</a>
-              <a class="dropdown-item dropc" href="companies.html">Companies</a>
-              <a class="dropdown-item dropc" href="services.html">Services</a>
-            </div>
-          </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
-            <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
-              <a class="dropdown-item dropc" href="eurasante.html">Eurasanté</a>
-              <a class="dropdown-item dropc" href="laplaineimages.html">La plaine images</a>
-              <a class="dropdown-item dropc" href="creinnov.html">Cré'innov</a>
-              <a class="dropdown-item dropc" href="agtech.html">Agtech</a>
-            </div>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
 
   <div class="content">
   <br>
   <div class="container">
    <div class="row">
    <div class="col-3"></div>
-   <div class="col-6"><h1>Companies in Euratechnologie</h1></div>
+   <div class="col-6"><h1>Companies in Euratechnologies</h1></div>
    <div class="col-3"></div>
   </div> 
   <div class="row">
@@ -80,7 +37,7 @@
       <div class="card mb-3 float-left shadow p-3 mb-5 bg-white rounded" style="max-width: 540px;">
           <div class="row">
               <div class="col-md-4">
-              <img src="img/abordage.png" class="card-img" alt="logo abordage">
+              <a target="_BLANK" href="https://www.euratechnologies.com/entreprises/abordage/"><img src="img/abordage.png" class="card-img" alt="logo abordage"></a>
               </div>
               <div class="col-md-8">
                   <div class="card-body">
@@ -106,7 +63,7 @@
                       </div>
                   </div>
                   <div class="col-md-4">
-                  <img src="img/CARFIT.png" class="card-img" alt="logo carfit">
+                  <a target="_BLANK" href="https://www.euratechnologies.com/entreprises/carfit/"><img src="img/CARFIT.png" class="card-img" alt="logo carfit"></a>
                   </div>
               
               </div>
@@ -115,7 +72,7 @@
       <div class="card mb-3 float-left shadow p-3 mb-5 bg-white rounded" style="max-width: 540px;">
         <div class="row">
             <div class="col-md-4">
-            <img src="img/dejbox.png" class="card-img" alt="logo dejbox">
+            <a target="_BLANK" href="https://www.dejbox.fr/"><img src="img/dejbox.png" class="card-img" alt="logo dejbox"></a>
             </div>
             <div class="col-md-8">
                 <div class="card-body">
@@ -136,13 +93,13 @@
                 <div class="col-md-8">
                     <div class="card-body">
                     <h5 class="card-title">FRIZBIZ</h5>
-                    <p class="card-text">Frizibiz is about making an easy way to a person who needs a service and a person who can give the service to meet. The main idea is to make the use more important that the have so that people don’t have to buy a tool if they use their neighboors tool.
+                    <p class="card-text">Frizibiz is about making an easy way to a personw ho needs a service and a person who can give the service to meet. The main idea is to make the use more important that the have so that people don’t have to buy a tool if they use their neighboors tool.
                     </p>
                     
                     </div>
                 </div>
                 <div class="col-md-4">
-                <img src="img/frizbiz.png" class="card-img" alt="logo frizbiz">
+                <a target="_BLANK" href="https://www.frizbiz.com/fr"><img src="img/frizbiz.png" class="card-img" alt="logo frizbiz"></a>
                 </div>
             
             </div>
@@ -151,7 +108,7 @@
     <div class="card mb-3 float-left shadow p-3 mb-5 bg-white rounded" style="max-width: 540px;">
       <div class="row">
           <div class="col-md-4">
-          <img src="img/LAKKOR.jpg" class="card-img" alt="logo lakkor">
+          <a target="_BLANK" href="https://www.lakkor.fr/home"><img src="img/LAKKOR.jpg" class="card-img" alt="logo lakkor"></a>
           </div>
           <div class="col-md-8">
               <div class="card-body">
@@ -175,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                <img src="img/Mapwize.png" class="card-img" alt="logo Mapwize">
+                <a target="_BLANK" href="https://www.mapwize.io/fr/"><img src="img/Mapwize.png" class="card-img" alt="logo Mapwize"></a>
                 </div>
             
             </div>
@@ -186,13 +143,13 @@
           <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">MEETYOURDATA</h5>
-              <p class="card-text">Meetyourdata is specialised in the collect and the analysis of datas on the internet users, web, mobile et connected objects. Their main competences are : web analysis, tag management system et data integration.
+              <p class="card-text">meetyourdate is specialised in the collect and the analysis of datas on the internet users, web, mobile et connected objects. Their main competences are : web analysis, tag management system et data integration.
               </p>
               
               </div>
           </div>
           <div class="col-md-4">
-          <img src="img/meet.jpg" class="card-img" alt="logo Meetyourdata">
+          <a target="_BLANK" href="http://www.meet-your-data.fr/"><img src="img/meet.jpg" class="card-img" alt="logo Meetyourdata"></a>
         </div>
       
       </div>
@@ -216,7 +173,7 @@
                 </div>
             </div>
           <div class="col-md-4">
-            <img src="img/wavely.jpg" class="card-img" alt="logo wavely">
+            <a target="_BLANK" href="http://wavely.fr/"><img src="img/wavely.jpg" class="card-img" alt="logo wavely"></a>
           </div>
         
         </div>
@@ -226,12 +183,12 @@
     <div class="card mb-3 float-left shadow p-3 mb-5 bg-white rounded" style="max-width: 540px;">
     <div class="row">
         <div class="col-md-4">
-        <img src="img/tacotroc.jpg" class="card-img" alt="logo tacotroc">
+        <a target="_BLANK" href="https://www.euratechnologies.com/entreprises/tacotroc-com/"><img src="img/tacotroc.jpg" class="card-img" alt="logo tacotroc"></a>
         </div>
         <div class="col-md-8">
             <div class="card-body">
             <h5 class="card-title">TACOTROC</h5>
-            <p class="card-text">tacotroc.com is a community plateform dedicated to the old cars passion. This a place where people can share their love for mecanics, story of cars and brands,their interest about museam, old places , art, car professionals , etc...
+            <p class="card-text">tacotroc.com is community plateformn dedicated to the old cars passion. This a place where people can share their love for mecanics, story of cars and brands,their interest about museam, old places , art, car professionals , etc...
             </p>
             </div>
     </div>

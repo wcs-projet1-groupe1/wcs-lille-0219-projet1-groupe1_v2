@@ -7,16 +7,21 @@ font-size: 150%;
 }
 
 .naveura{
-background-color:#996840;
 border-bottom:2px solid #fdfdfd;
 border-right:2px solid #fdfdfd;
 border-top:2px solid #fdfdfd;
-top:11vh;
-width: 11vw;
+border-radius:10px;
+top:20vh;
+width: 15vw;
 z-index: 10;
 list-style:none;
 display: block;
 left:-2.5vw;
+}
+
+.kids{
+  max-height:120px;
+  max-width: 240px;
 }
 
 .naveura li {
@@ -31,84 +36,14 @@ list-style: square;
 padding: 15px;
 }
 
-.card-euratech{
-background-color:#C3E6CB !important;
-}
-
 #squarelist{
 list-style:square;
 }
 
-
-
-body{background:#e3e3e3;
-padding-top:0px;}
-
-nav{
-background:#996840;
-border-bottom:2px solid #fdfdfd;
-top:0px;
-width: 100%;
-z-index: 100;
-}
-
-.sticky{
-position: fixed;
-top: 0;
-width: 100%;
-}
-
-.sticky + .content {
-padding-top: 70px;
-}
-
-
-#footerc{background:#996840;
-border-top:2px solid #fdfdfd;
-}
-
-h1{color:#50566b;
-font-family: 'Oswald', sans-serif;}
 h3{color:#50566b;
 font-family: 'Oswald', sans-serif;}
 h2{color:#50566b;
   font-family: 'Oswald', sans-serif;}
-
-
-.nav-item{
-z-index: 1000010 ;
-}
-    
-a{
-text-decoration: none !important;
-font-variant: normal !important;
-text-transform: none !important;
-color:#DBDBDB !important;
-font-size:16px;}
-
-a:hover {
-text-decoration: none !important;
-font-variant: normal !important;
-text-transform: none !important;
-text-shadow:#F3F1F1 0 0 3px!important;
-font-size:16px;
-transition:0.8s ease;
-color:#F3F1F1 !important;
-}
-      
-.deco{background: #e3e3e3;
-border: 2px solid #fdfdfd;
-}
-
-.dropc{color: #50566b !important;}
-
-.dropdown-item:hover{background:#996840;}
-
-
-.hamber{
-background:#F3F1F1;
-border:2px solid #fdfdfd !important;
-}
 
 p{
 color:#404040 !important;
@@ -133,4 +68,89 @@ a:hover{letter-spacing:1px;}
 .naveura {
 display: none;
 }
+}
+
+body{background:#fdfdfd;}
+
+nav{
+  background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+  width: 100%;
+  border-bottom:2px solid #e3e3e3;
+  top:0px;
+  z-index: 100;
+  font-size:24px!important;
+  text-align:center;
+  transition:1s;
+  position:fixed;
+  }
+
+.logonav{
+  width:300px;
+  height:100px;
+  margin-right:70px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding-top: 150px;
+  }
+
+
+#footerc{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+border-top:2px solid #e3e3e3;
+}
+
+h1{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+h3{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+
+.nav-link{
+  margin-top:23px;
+  margin-left:10px;
+  justify-content: center;
+}
+
+.nav-item{
+    z-index: 1000010 ;
+}
+
+a{text-decoration: none !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    color:#DBDBDB !important;}
+  
+  a:hover {
+    text-decoration: none !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    text-shadow:#F3F1F1 0 0 3px!important;
+    transition:0.8s ease;
+    color:#F3F1F1 !important;
+    }
+  
+  .deco{background: #FDFDFD;
+    border: 2px solid #e3e3e3;
+  }
+  
+  .dropc{color: #50566b !important;}
+
+.dropdown-item:hover{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));}
+
+
+.hamber{
+    background:#F3F1F1;
+    border:2px solid #e3e3e3 !important;
+    position: relative;
+    right:-330px;
+    top:-63px;
+  }
+
+.card-header{
+  background:#C3E6CB !important;
 }

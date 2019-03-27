@@ -17,50 +17,8 @@
 
 <body>
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.html">T.A.M.B.A.S</a>
-  
-    <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-  
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-  
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
-          <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink1">
-            <a class="dropdown-item dropc" href="presentation.html">Presentation</a>
-            <a class="dropdown-item dropc" href="companies.html">Companies</a>
-            <a class="dropdown-item dropc" href="services.html">Services</a>
-          </div>
-        </li>
-  
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
-          <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
-            <a class="dropdown-item dropc" href="eurasante.html">Eurasanté</a>
-            <a class="dropdown-item dropc" href="laplaineimages.html">La plaine images</a>
-            <a class="dropdown-item dropc" href="creinnov.html">Cré'innov</a>
-            <a class="dropdown-item dropc" href="agtech.html">Agtech</a>
-          </div>
-        </li>
-  
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-  
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        
-      </ul>
-    </div>
-  </nav>
+<?php require "nav.php"; ?>
+
 <!--partie sur Euratechnologies-->
 <nav class="position-fixed naveura col-2">
   <ul id="navintern">
@@ -70,41 +28,19 @@
     <li><a href="#Opportunities">Opportunities</a></li>
   </ul>
 </nav>
-    <div class="content">
-      <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="https://i.postimg.cc/rmgyL4vn/IMG-20190304-144058.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://i.postimg.cc/wv5yR3nL/IMG-20190304-142635.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="https://i.postimg.cc/g0sbwWNr/IMG-20190304-144505.jpg" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-    <br>
-      <article class="container">
-      <h2 class="text-center">Euratechnologie</h2>
+
+  <div class="content">
+      
       <br>
+      <article class="container">
+      <h2 class="text-center">Euratechnologies</h2>
+      <br>
+      <br>
+
+      <!--mettre une vidéo de présentation-->
+      
     <section id="Description">
-      <h3 style="padding-top: 80px; margin-top: -80px;">Description</h3>
+      <h3 style="padding-top: 180px; margin-top: -180px;">Description</h3>
         <br>
         <p>Born in 2009 in Lille, <b>Euratechnologies</b> is the center of excellence and digital innovation of French Tech. First incubator and accelerator of startups in France and ranked in the top 3 in Europe, Euratechnologies accompanies the development of all its companies. From support to international deployment, it contributes to its success. Let’s talk about numbers, Euratechnologies has :</p>
           <ul id="squarelist">
@@ -115,22 +51,24 @@
             <li>500 annual events.</li>
           </ul>
       </section>
+
       <br>
       <section id="History">
-        <h3 style="padding-top: 80px; margin-top: -80px;">History</h3>
+        <h3 style="padding-top: 140px; margin-top: -140px;">History</h3>
           <br>
           <p>Stem from the rehabilitation and merging of the two textile companies <i>Le Blan</i> and <i>Lafont</i>, Euratechnologies has large premises with rich history. Following cotton industry’s crisis, the two factories filed for bankruptcy in 1996. In 1998, <i>the Lille Urban Community</i> decided to launch a conversion project called Euratechnologie. It will be inaugurated as we know it on March 26, 2009. The adventure begins in 2006 with the <i>Microsoft</i> and <i>Cap Gemini's</i> establishment, at the time Euratechnology has 25 companies and 300 employees.</p>
       </section>
+
         <br>
       <section id="Operations">
-        <h3 style="padding-top: 80px; margin-top: -80px;">Operations</h3>
+        <h3 style="padding-top: 140px; margin-top: -140px;">Operations</h3>
           <br>
             <div class="card">
               <h5 class="card-header card-euratech">Training by Euratech</h5>
               <div class="card-body">
                 <p class="card-text">Pillar of the Euratechnologies’s ecosystem, web and marketing training are welcomed within the premises. Training centers and schools offer short courses such as long, which are graduating, qualifying or certifying.</p>
                 <div class="float-right">
-                <p>More information : <a href="https://en.euratechnologies.com/training/" target="_blank"><img src="https://i.postimg.cc/B6dJDGHG/Collage-formation.jpg" alt= "bag"/></a></p>
+                <p>Read more : <a href="https://en.euratechnologies.com/training/" target="_blank"><img src="https://i.postimg.cc/B6dJDGHG/Collage-formation.jpg" alt= "bag"/></a></p>
                   </div>
               </div>
             </div>
@@ -142,7 +80,7 @@
           <div class="card-body">
             <p class="card-text">With incubation program to pass the idea to the prototype in 80 days, <i>Start by Euratech</i> is an ideal accompaniment for young entrepreneurs. It includes about fifteen thematic workshops, entrepreneurs meetings, individualized coaching, entrepreneurs sponsorship and access to technology partner offers.</p>
             <div class="float-left">
-              <p>More information : <a href="https://www.euratechnologies.com/incubation-start-entrepreneurs-ideation-concept/" target="_blank"><img src="https://i.imgur.com/gHnhueC.jpg" alt= "start_by_Euratech"/></a></p>                  </div>
+              <p>Read more : <a href="https://www.euratechnologies.com/incubation-start-entrepreneurs-ideation-concept/" target="_blank"><img src="https://i.imgur.com/gHnhueC.jpg" alt= "start_by_Euratech"/></a></p>                  </div>
           </div>
         </div>
     </section>
@@ -159,7 +97,7 @@
               It also provides young entrepreneurs with a vast network within the digital ecosystem.
             </p>
             <div class="float-right">
-              <p>More information : <a href="http://www.scale.euratechnologies.com/" target="_blank"><img src="https://i.postimg.cc/prJSYxKh/scale-euratechnologies-programme-acceleration-startup-btob.jpg" alt= "scale_by_Euratech"/></a></p>                  </div>
+              <p>Read more : <a href="http://www.scale.euratechnologies.com/" target="_blank"><img src="https://i.postimg.cc/prJSYxKh/scale-euratechnologies-programme-acceleration-startup-btob.jpg" alt= "scale_by_Euratech"/></a></p>                  </div>
           </div>
         </div>
     </section>
@@ -170,7 +108,7 @@
           <div class="card-body">
             <p class="card-text">Once the company are launched, it is possible to settle within the premises of Euratechnologies through the program <i>Grow by Euratech</i>. Available spaces range from 24 m2 up to 5 ha. Companies benefit from several shared services such as meeting rooms, data centers, auditorium, conference rooms, etc.</p>
             <div class="float-left">
-              <p>More information : <a href="https://en.euratechnologies.com/business-center/" target="_blank"><img src="https://i.postimg.cc/ryZxs3BQ/grow-euratechnologies-offre-immobiliere-coworking-wellworking-re.jpg" alt= "grow_by_Euratech"/></a></p>
+              <p>Read more : <a href="https://en.euratechnologies.com/business-center/" target="_blank"><img src="https://i.postimg.cc/ryZxs3BQ/grow-euratechnologies-offre-immobiliere-coworking-wellworking-re.jpg" alt= "grow_by_Euratech"/></a></p>
             </div>
         </div>
     </section>
@@ -182,7 +120,7 @@
               <div class="card-body">
                 <p class="card-text">Dedicated to children aged 6 to 15, <i>EuraTech'Kids</i> is a set of introductory workshops on coding and robotics. It represents an opportunity to introduce children to the field of digital possibilities. it contains a robotic cycle and a Scratch coding cycle. The sessions take place during the year and the school holidays.</p>
                 <div class="float-right">
-                  <p>Find EuraTech'Kids : <a href="https://www.euratechnologies.com/agenda/euratechkids-coding-robotique-creativite/" target="_blank"><img src="https://i.postimg.cc/SRVHWkpT/34429.png" alt= "robot"/></a>.</p>
+                  <p>Find EuraTech'Kids : <a href="https://www.euratechnologies.com/agenda/euratechkids-coding-robotique-creativite/" target="_blank"><img class="kids" src="img/kids.png" alt= "robot"/></a>.</p>
                 </div>
               </div>
             </div>
@@ -199,7 +137,7 @@
           </div>
     </section>
     </article>
-    </div>
+</div>
    
 <script>
 window.onscroll = function() {myFunction()};
@@ -220,9 +158,6 @@ if (window.pageYOffset >= sticky) {
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-        
 
 </body>
           

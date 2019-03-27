@@ -58,50 +58,7 @@
     </script>
   </head>
   <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand apt" href="index.html">T.A.M.B.A.S</a>
-    
-      <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-    
-          <li class="nav-item active">
-            <a class="nav-link ap" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle ap" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
-            <div class="dropdown-menu deco ap" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item dropc ap" href="presentation.html">Presentation</a>
-              <a class="dropdown-item dropc ap" href="companies.html">Companies</a>
-              <a class="dropdown-item dropc ap" href="services.html">Services</a>
-            </div>
-          </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle ap" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
-            <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
-              <a class="dropdown-item dropc ap" href="eurasante.html">Eurasanté</a>
-              <a class="dropdown-item dropc ap" href="laplaineimages.html">La plaine images</a>
-              <a class="dropdown-item dropc ap" href="creinnov.html">Cré'innov</a>
-              <a class="dropdown-item dropc ap" href="agtech.html">Agtech</a>
-            </div>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link ap" href="gallery.html">Gallery</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link ap" href="contact.html">Contact</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
+  <?php require "nav.php"; ?>
     <div class="container content">        
 <!--Début contenu-->
         <div class="card">
@@ -123,10 +80,10 @@
                     <div class="row">
                         <div class="col-sm p-3">
                             <div class="list-group">
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage1();">OCR<i class="far fa-eye float-right"></i></a>
+                                <a class="apt list-group-item list-group-item-action list-group-item-success" onclick="showImage1();">OCR<i class="far fa-eye float-right"></i></a>
                                 <div class="deplacer" id="loadingImage1">
                                     <div class="card" style="width:15rem;">
-                                        <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage1();"></a>
+                                        <a class="close"><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage1();"></a>
                                         <img class="card-img-top" src="http://www.oncovet-clinical-research.com/wp-content/uploads/2015/12/logo.png" alt="Card image cap">
                                         <div class="card-body">
                                           <h5 class="card-title">OCR</h5>
@@ -148,10 +105,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage2();">GENFIT<i class="far fa-eye float-right"></i></a>
+                                <a class="apt list-group-item list-group-item-action list-group-item-success" onclick="showImage2();">GENFIT<i class="far fa-eye float-right"></i></a>
                                 <div class="deplacer" id="loadingImage2">
                                     <div class="card" style="width:15rem;">
-                                        <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage2();"></a>
+                                        <a class="close"><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage2();"></a>
                                         <img class="card-img-top" src="https://www.genfit.fr/wp-content/uploads/2014/02/genfit.jpg" alt="Card image cap">
                                         <div class="card-body">
                                             <h5 class="card-title">GENFIT</h5>
@@ -167,10 +124,10 @@
                         </div>
                         <div class="col-sm p-3">
                             <div class="list-group">
-                              <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage4();">DIAGAST<i class="far fa-eye float-right"></i></a>
+                              <a class="apt list-group-item list-group-item-action list-group-item-success" onclick="showImage4();">DIAGAST<i class="far fa-eye float-right"></i></a>
                               <div class="deplacer" id="loadingImage4">
                                   <div class="card" style="width:15rem;">
-                                      <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage4();"></a>
+                                      <a class="close"><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage4();"></a>
                                         <img class="card-img-top" src="https://www.diagast.com/images/logo.gif" alt="Card image cap">
                                         <div class="card-body">
                                             <h5 class="card-title">DIAGAST</h5>
@@ -182,10 +139,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="list-group-item list-group-item-action list-group-item-success" onclick="showImage5();">HMS & VILGO<i class="far fa-eye float-right"></i></a>
+                                <a class="apt list-group-item list-group-item-action list-group-item-success" onclick="showImage5();">HMS & VILGO<i class="far fa-eye float-right"></i></a>
                                 <div class="deplacer" id="loadingImage5">
                                     <div class="card" style="width:15rem;">
-                                        <a><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage5();"></a>
+                                        <a class="close"><img class="float-right cross" src="https://img.icons8.com/ios/28/000000/delete-sign-filled.png" alt="Card image cap" onclick="hideImage5();"></a>
                                         <img class="card-img-top" src="https://www.hms-vilgo.com/img/logo_en.png" alt="Card image cap">
                                         <div class="card-body">
                                             <h5 class="card-title">HMS & VILGO</h5>
@@ -205,7 +162,7 @@
                             
                         </div>
                         <div class="col-auto p-3">
-                            <a href="https://www.euratechnologies.com/incubateur-agtech-euratechnologies/" class="btn w-100 ap" target="_blank">More info</a>
+                            <a href="https://www.eurasante.com/" class="btn w-100 ap" target="_blank">More info</a>
                         </div>
                     </div>
                 </div>

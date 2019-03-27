@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="legalnotice.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,50 +17,8 @@
 </head>
 
 <body>
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html">T.A.M.B.A.S</a>
-              
-                <button class="navbar-toggler hamber" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-              
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-              
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Euratech</a>
-                      <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink1">
-                        <a class="dropdown-item dropc" href="presentation.html">Presentation</a>
-                        <a class="dropdown-item dropc" href="companies.html">Companies</a>
-                        <a class="dropdown-item dropc" href="services.html">Services</a>
-                      </div>
-                    </li>
-              
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other technologic poles</a>
-                      <div class="dropdown-menu deco" aria-labelledby="navbarDropdownMenuLink2">
-                        <a class="dropdown-item dropc" href="eurasante.html">Eurasanté</a>
-                        <a class="dropdown-item dropc" href="laplaineimages.html">La plaine images</a>
-                        <a class="dropdown-item dropc" href="creinnov.html">Cré'innov</a>
-                        <a class="dropdown-item dropc" href="agtech.html">Agtech</a>
-                      </div>
-                    </li>
-              
-                    <li class="nav-item">
-                      <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-              
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    
-                  </ul>
-                </div>
-              </nav>
+<?php require "nav.php"; ?>
+
 <div class="container content">
     <h2>
         Web Site Terms and Conditions of Use
@@ -87,7 +44,7 @@
     <ol type="a">
         <li>
             Permission is granted to temporarily download one copy of the materials
-            (information or software) on T.A.M.B.A.S's web site for personal,
+            (information or software) on French Tech lille's web site for personal,
             non-commercial transitory viewing only. This is the grant of a license,
             not a transfer of title, and under this license you may not:
 
@@ -95,14 +52,14 @@
                 <li>modify or copy the materials;</li>
                 <li>use the materials for any commercial purpose, or for any public display (commercial or
                     non-commercial);</li>
-                <li>attempt to decompile or reverse engineer any software contained on T.A.M.B.A.S's web site;</li>
+                <li>attempt to decompile or reverse engineer any software contained on French Tech lille's web site;</li>
                 <li>remove any copyright or other proprietary notations from the materials; or</li>
                 <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
             </ol>
         </li>
         <li>
             This license shall automatically terminate if you violate any of these restrictions and may be terminated
-            by T.A.M.B.A.S at any time. Upon terminating your viewing of these materials or upon the termination of
+            by French Tech lille at any time. Upon terminating your viewing of these materials or upon the termination of
             this license, you must destroy any downloaded materials in your possession whether in electronic or printed
             format.
         </li>
@@ -114,10 +71,10 @@
 <br>
     <ol type="a">
         <li>
-            The materials on T.A.M.B.A.S's web site are provided "as is". T.A.M.B.A.S makes no warranties, expressed or
+            The materials on French Tech lille's web site are provided "as is". French Tech lille makes no warranties, expressed or
             implied, and hereby disclaims and negates all other warranties, including without limitation, implied
             warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of
-            intellectual property or other violation of rights. Further, T.A.M.B.A.S does not warrant or make any
+            intellectual property or other violation of rights. Further, French Tech lille does not warrant or make any
             representations concerning the accuracy, likely results, or reliability of the use of the materials on its
             Internet web site or otherwise relating to such materials or on any sites linked to this site.
         </li>
@@ -128,9 +85,9 @@
     </h3>
 <br>
     <p>
-        In no event shall T.A.M.B.A.S or its suppliers be liable for any damages (including, without limitation,
+        In no event shall French Tech lille or its suppliers be liable for any damages (including, without limitation,
         damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to
-        use the materials on T.A.M.B.A.S's Internet site, even if T.A.M.B.A.S or a T.A.M.B.A.S authorized
+        use the materials on French Tech lille's Internet site, even if French Tech lille or a French Tech lille authorized
         representative has been notified orally or in writing of the possibility of such damage. Because some
         jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or
         incidental damages, these limitations may not apply to you.
@@ -141,10 +98,10 @@
     </h3>
 <br>
     <p>
-        The materials appearing on T.A.M.B.A.S's web site could include technical, typographical, or photographic
-        errors. T.A.M.B.A.S does not warrant that any of the materials on its web site are accurate, complete, or
-        current. T.A.M.B.A.S may make changes to the materials contained on its web site at any time without notice.
-        T.A.M.B.A.S does not, however, make any commitment to update the materials.
+        The materials appearing on French Tech lille's web site could include technical, typographical, or photographic
+        errors. French Tech lille does not warrant that any of the materials on its web site are accurate, complete, or
+        current. French Tech lille may make changes to the materials contained on its web site at any time without notice.
+        French Tech lille does not, however, make any commitment to update the materials.
     </p>
 
     <h3>
@@ -152,8 +109,8 @@
     </h3>
 <br>
     <p>
-        T.A.M.B.A.S has not reviewed all of the sites linked to its Internet web site and is not responsible for the
-        contents of any such linked site. The inclusion of any link does not imply endorsement by T.A.M.B.A.S of the
+        French Tech lille has not reviewed all of the sites linked to its Internet web site and is not responsible for the
+        contents of any such linked site. The inclusion of any link does not imply endorsement by French Tech lille of the
         site. Use of any such linked web site is at the user's own risk.
     </p>
 
@@ -162,7 +119,7 @@
     </h3>
 <br>
     <p>
-        T.A.M.B.A.S may revise these terms of use for its web site at any time without notice. By using this web site
+        French Tech lille may revise these terms of use for its web site at any time without notice. By using this web site
         you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
     </p>
 
@@ -171,7 +128,7 @@
     </h3>
 <br>
     <p>
-        Any claim relating to T.A.M.B.A.S's web site shall be governed by the laws of the State of FRANCE without
+        Any claim relating to French Tech lille's web site shall be governed by the laws of the State of FRANCE without
         regard to its conflict of law provisions.
     </p>
 
@@ -237,18 +194,18 @@ var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-    if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
-    } else {
+  } else {
     navbar.classList.remove("sticky");
-    }
+  }
 }
-</script>
 
+</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
-
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
