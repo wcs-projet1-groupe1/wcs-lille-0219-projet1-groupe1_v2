@@ -12,6 +12,7 @@
   <link rel="icon" sizes="32x32" href="img/favicon-32.png" type="image/png">
   <link rel="icon" sizes="64x64" href="img/favicon-64.png" type="image/png">
   <link rel="icon" sizes="96x96" href="img/favicon-96.png" type="image/png">
+  <link rel="stylesheet" href="index.css">
   <title>Home</title>
 </head>
 
@@ -102,55 +103,44 @@
     <br>
     <h3>EuraTechnologies totem of labeling "Lille is French Tech".</h3>
     <p>
-      Launched in January 2014, the call for certification "Métropole French Tech" (originally "digital neighborhoods") is aimed at French cities who want to mobilize and federate local stakeholders around an ambitious project to grow their ecosystem , in order to make it in a few years a flagship and internationally recognized place for its entrepreneurial dynamism and to position France as a true "startup nation" with global reach.
+      Launched in January 2014, the call for certification "Métropole French Tech" (originally "digital neighborhoods") is aimed at French cities who want to mobilize and federate local stakeholders around an ambitious project to grow their ecosystem , in order to make it in a few years a flagship and internationally recognized place for its entrepreneurial dynamism and to position France as a true "startup nation" with global reach. 
     </p>
     <br>
-    <h3>Lille, a natural choice.</h3>
-    <p>
-      It is by its privileged geographical position in the heart of Europe between Paris, London, Brussels and Amsterdam, that the French Tech Lille takes all its dimension.<br>
+    <div id="text">
+        <h3>Lille, a natural choice.</h3>
+        <p>
+        It is by its privileged geographical position in the heart of Europe between Paris, London, Brussels and Amsterdam, that the French Tech Lille takes all its dimension.<br>
 
-      By imposing itself naturally as the gateway to northern Europe. This makes it the epicenter of a pool of 70 million inhabitants, located within a radius of 300 km, connected in less than 1h30 of high-speed train, based on one of the largest broadband networks in the world , placed at the center of a market representing a consumer potential of $ 1.5 trillion (Experian Study 2011).<br>
-      
-      This great collective mobilization for the digital influence of France finds a particular echo here. Characterized by the presence of an ecosystem already mature in the region with the presence of big names in digital such as IBM, OVH, Ankama and promising young companies like Adictiz, Clic and Walk, Giroptic ...<br>
-      
-      While relying on a network of iconic sites such as: EuraTechnologies, La Plaine Images, Louvre Lens Valley or la Serre Numérique ...<br>
-      What makes the strength of this ecosystem is its youth, openness, creativity and daring, Lille French Tech invites you to discover that it is already ready to anchor in this dynamic of the future.
-    </p>
-    <br>
-    <h3>Lille is also within it that beats the heart of La French Tech.</h3>
-    <p>
-      The entrepreneurial spirit that historically characterizes the metropolitan economy is measured the number of companies located on its territory - all activities combined 200 companies with more than 200 employees, 150 mid-size companies with high growth potential - but also annual number of creations and takeovers - 9,000 in 2012. The strength of Lille French Tech is its youth, 35% of its population under 25 years. A trained youth, representing 10% of French engineers trained, determined and full of ideas.<br>
+        By imposing itself naturally as the gateway to northern Europe. This makes it the epicenter of a pool of 70 million inhabitants, located within a radius of 300 km, connected in less than 1h30 of high-speed train, based on one of the largest broadband networks in the world , placed at the center of a market representing a consumer potential of $ 1.5 trillion (Experian Study 2011).<br>
+        
+        This great collective mobilization for the digital influence of France finds a particular echo here. Characterized by the presence of an ecosystem already mature in the region with the presence of big names in digital such as IBM, OVH, Ankama and promising young companies like Adictiz, Clic and Walk, Giroptic ...<br>
+        
+        While relying on a network of iconic sites such as: EuraTechnologies, La Plaine Images, Louvre Lens Valley or la Serre Numérique ...<br>
+        What makes the strength of this ecosystem is its youth, openness, creativity and daring, Lille French Tech invites you to discover that it is already ready to anchor in this dynamic of the future.
+        </p>
+        <br>
+        <h3>Lille is also within it that beats the heart of La French Tech.</h3>
+        <p>
+        The entrepreneurial spirit that historically characterizes the metropolitan economy is measured the number of companies located on its territory - all activities combined 200 companies with more than 200 employees, 150 mid-size companies with high growth potential - but also annual number of creations and takeovers - 9,000 in 2012. The strength of Lille French Tech is its youth, 35% of its population under 25 years. A trained youth, representing 10% of French engineers trained, determined and full of ideas.<br>
 
-      Lille French Tech is a collaborative and unifying project that is completely in the DNA of the FRENCH TECH cities. Indeed, the French Tech is the meeting of all the talents that make the digital in France. Entrepreneurs of course, but also all those who build digital dynamics in our country: investors, engineers, designers, marketers, researchers, students, associations, bloggers, public operators ...<br>
-      
-      The Lille metropolitan area and the Nord-Pas de Calais region, along with the metropolises of Calais, Lens-Liévin and Valenciennes, are fully involved in this dynamic, involving all digital players to build the plural metropolis of tomorrow thanks to digital energies
-    </p>
+        Lille French Tech is a collaborative and unifying project that is completely in the DNA of the FRENCH TECH cities. Indeed, the French Tech is the meeting of all the talents that make the digital in France. Entrepreneurs of course, but also all those who build digital dynamics in our country: investors, engineers, designers, marketers, researchers, students, associations, bloggers, public operators ...<br>
+        
+        The Lille metropolitan area and the Nord-Pas de Calais region, along with the metropolises of Calais, Lens-Liévin and Valenciennes, are fully involved in this dynamic, involving all digital players to build the plural metropolis of tomorrow thanks to digital energies
+        </p>
+    </div>
+    <div class="btn-container">
+      <button id="toggle">Read More</button>
+  </div>
     <br>
     <footer class="blockquote-footer">Source from <cite title="Source Title">https://www.euratechnologies.com</cite></footer>
   </blockquote>
 </div>
 </div>
 
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+<script src="index.js"></script>
 </body>
 
 </html>
