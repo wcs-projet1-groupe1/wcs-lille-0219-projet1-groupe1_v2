@@ -27,7 +27,7 @@ nav{
 }
 
 .sticky + .content {
-    padding-top: 165px;
+    padding-top: 135px;
   }
 
 .content{
@@ -83,21 +83,6 @@ a{text-decoration: none !important;
     right:-330px;
     top:-63px;
   }
-
-.lienhere{
-  text-decoration: none !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  font-size:16px;
-  color : #384982!important;}
-
-.lienhere:hover{
-  text-decoration: none !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  font-size:16px;
-  color : #50566b !important;
-}
 
 p{
   color:#404040;
@@ -181,58 +166,25 @@ p{
       position:relative;
       bottom:70px;
     }
-
-    
-/*changement*/
-
-.hide{
-  position: absolute;
-  top: -10%;
-  z-index: 99;
-  width: 35vw;
-  visibility:hidden;
-}
-
-.cards-img{
-  height: 50px;
-  width: auto;
-}
-
-.firstcard{
-  width: 45%;
-}
-
-.droite{
-  justify-content: end;
-}
-
-.card-img{
-  width: 80%;
-  height: 100px;
-}
-
-.close{
-  transition:0s !important;
-}
-/*changement*/
-
-.btn{
-  background:#559970 !important;
-  border:transparent !important;
-  box-shadow:#e3e3e3 0 0 5px;
-  color:#fdfdfd;
-  font:16px;
-  padding:10px;
-  text-decoration: none !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  }
   
-  .btn:hover{
-  letter-spacing:0.5px;
-  box-shadow:#e3e3e3 0 0 15px;
-  font:16px;
-  text-decoration: none !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  }
+    .btn{
+        background:#559970 !important;
+        border:transparent !important;
+        box-shadow:#e3e3e3 0 0 5px;
+        color:#fdfdfd;
+        transition:0.8s ease;
+        font:16px;
+        padding:10px;
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        }
+  
+        .btn:hover{
+          letter-spacing:0.5px;
+          box-shadow:#e3e3e3 0 0 15px;
+          font:16px;
+          text-decoration: none !important;
+          font-variant: normal !important;
+          text-transform: none !important;
+          }

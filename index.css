@@ -1,14 +1,23 @@
 *{font-family: 'Open Sans', sans-serif;
 -webkit-user-select: none;}
 
-body{background:#e3e3e3;}
+body{background:#fdfdfd;}
 
 nav{
-background:#996840;
-border-bottom:2px solid #fdfdfd;
-top:0px;
-width: 100%;
-z-index: 100;
+  background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+  width: 100%;
+  border-bottom:2px solid #e3e3e3;
+  top:0px;
+  z-index: 100;
+  font-size:24px!important;
+  text-align:center;
+  transition:1s;
+  }
+
+.logonav{
+  width:300px;
+  height:100px;
+  margin-right:70px;
 }
 
 .sticky{
@@ -18,18 +27,27 @@ z-index: 100;
 }
 
 .sticky + .content {
-    padding-top: 70px;
+    padding-top: 140px;
   }
 
+.carousel{
+  margin-top:35px;
+}
 
-#footerc{background:#996840;
-border-top:2px solid #fdfdfd;
+#footerc{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+border-top:2px solid #e3e3e3;
 }
 
 h1{color:#50566b;
 font-family: 'Oswald', sans-serif;}
 h3{color:#50566b;
 font-family: 'Oswald', sans-serif;}
+
+.nav-link{
+  margin-top:23px;
+  margin-left:10px;
+  justify-content: center;
+}
 
 .nav-item{
     z-index: 1000010 ;
@@ -38,31 +56,32 @@ font-family: 'Oswald', sans-serif;}
 a{text-decoration: none !important;
     font-variant: normal !important;
     text-transform: none !important;
-    color:#DBDBDB !important;
-    font-size:16px;}
+    color:#DBDBDB !important;}
   
   a:hover {
     text-decoration: none !important;
     font-variant: normal !important;
     text-transform: none !important;
     text-shadow:#F3F1F1 0 0 3px!important;
-    font-size:16px;
     transition:0.8s ease;
     color:#F3F1F1 !important;
     }
   
-  .deco{background: #e3e3e3;
-    border: 2px solid #fdfdfd;
+  .deco{background: #FDFDFD;
+    border: 2px solid #e3e3e3;
   }
   
   .dropc{color: #50566b !important;}
 
-.dropdown-item:hover{background:#996840;}
+.dropdown-item:hover{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));}
 
 
 .hamber{
     background:#F3F1F1;
-    border:2px solid #fdfdfd !important;
+    border:2px solid #e3e3e3 !important;
+    position: relative;
+    right:-330px;
+    top:-63px;
   }
 
 p{
@@ -71,7 +90,7 @@ p{
 
 @media only screen and (max-width:767px){
     a:hover{letter-spacing:0px;}
-    footer{display:none;}
+    .legal:hover{letter-spacing:0px;}
   }
 @media screen and (min-width:768px){
     a:hover{letter-spacing:0px;}
@@ -79,8 +98,118 @@ p{
   
 @media screen and (min-width:992px){
     a:hover{letter-spacing:1px;}
+    .legal:hover{letter-spacing:1px!important;}
   }
   
 @media screen and (min-width:1200px){
     a:hover{letter-spacing:1px;}
+    .legal:hover{letter-spacing:1px!important;}
   }
+
+  .fleche {
+    background:transparent;
+    cursor: pointer;
+    position: absolute;
+    color: #267E85;
+    font-size: 50px;
+    transition: 0.6s ease;
+  }
+
+  .carousel-caption{
+    bottom:40px;
+    background:#FDFDFD;
+    border-radius:10px;
+  }
+  
+  h2{
+  font-size:40px;
+  color:#267E85;
+  }
+
+  .footerc{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+    border-top:2px solid #e3e3e3;
+    font-size:20px;
+    max-height: 190px;
+    margin-top: 50px;
+    }
+    
+    .footera{
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        color:#DBDBDB !important;
+        letter-spacing: 0px !important;
+    }
+    
+    .pin-ic:hover{
+        color:#BD1E24!important;
+        transition:0.5s ease;
+    }
+    
+    .ins-ic:hover{
+        color: #551EAC!important;
+        transition:0.5s ease;
+    }
+    
+    .li-ic:hover{
+        color:#007BB6!important;
+        transition: 0.5s ease;
+    }
+    
+    .gplus-ic:hover{
+        color:#D6492E!important;
+        transition: 0.5s ease;
+    }
+    
+    .tw-ic:hover{
+        color:#1DA1F2!important;
+        transition: 0.5s ease;
+    }
+    
+    .fb-ic:hover{
+        color:#4267B2!important;
+        transition: 0.5s ease;
+    }
+    
+    .legal{
+        color:#DBDBDB !important;
+      }
+      .legal:hover{
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        text-shadow:#F3F1F1 0 0 3px!important;
+        transition:0.8s ease;
+        color:#F3F1F1 !important;
+      }
+    
+      .notice{
+        position:relative;
+        bottom:70px;
+      }
+    
+      #text{
+        display:none;
+        }
+        
+      .btn-read{
+      background:#559970 !important;
+      border:transparent !important;
+      box-shadow:#e3e3e3 0 0 5px;
+      color:#fdfdfd;
+      transition:0.8s ease;
+      font:16px;
+      padding:10px;
+      text-decoration: none !important;
+      font-variant: normal !important;
+      text-transform: none !important;
+      }
+
+      .btn-read:hover{
+        letter-spacing:0.5px;
+        box-shadow:#e3e3e3 0 0 15px;
+        font:16px;
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        }
