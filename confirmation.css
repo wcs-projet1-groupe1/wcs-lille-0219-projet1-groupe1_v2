@@ -1,0 +1,188 @@
+*{font-family: 'Open Sans', sans-serif;
+-webkit-user-select: none;}
+
+h4{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+
+.back{
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+color:#50566b !important;
+font-size:16px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.back:hover{
+text-decoration: none !important;
+font-variant: normal !important;
+text-transform: none !important;
+text-shadow:#50566b 0 0 3px!important;
+font-size:16px;
+transition:0.8s ease;
+color:#404040 !important;
+letter-spacing: 1px;
+}
+
+#content{
+display:block;
+}
+
+body{background:#fdfdfd;}
+
+nav{
+  background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+  width: 100%;
+  border-bottom:2px solid #e3e3e3;
+  top:0px;
+  z-index: 100;
+  font-size:24px!important;
+  text-align:center;
+  transition:1s;
+  }
+
+.logonav{
+  width:300px;
+  height:100px;
+  margin-right:70px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    padding-top: 70px;
+  }
+
+
+#footerc{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+border-top:2px solid #e3e3e3;
+}
+
+h1{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+h3{color:#50566b;
+font-family: 'Oswald', sans-serif;}
+
+.nav-link{
+  margin-top:23px;
+  margin-left:10px;
+  justify-content: center;
+}
+
+.nav-item{
+    z-index: 1000010 ;
+}
+
+a{text-decoration: none !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    color:#DBDBDB !important;}
+  
+  a:hover {
+    text-decoration: none !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    text-shadow:#F3F1F1 0 0 3px!important;
+    transition:0.8s ease;
+    color:#F3F1F1 !important;
+    }
+  
+  .deco{background: #FDFDFD;
+    border: 2px solid #e3e3e3;
+  }
+  
+  .dropc{color: #50566b !important;}
+
+.dropdown-item:hover{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));}
+
+
+.hamber{
+    background:#F3F1F1;
+    border:2px solid #e3e3e3 !important;
+    position: relative;
+    right:-330px;
+    top:-63px;
+  }
+
+  .footerc{background-image: linear-gradient(to right, #267E85, rgb(127, 177, 94));
+    border-top:2px solid #e3e3e3;
+    font-size:20px;
+    max-height: 190px;
+    }
+    
+    .footera{
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        color:#DBDBDB !important;
+        letter-spacing: 0px !important;
+    }
+    
+    .pin-ic:hover{
+        color:#BD1E24!important;
+        transition:0.5s ease;
+    }
+    
+    .ins-ic:hover{
+        color: #551EAC!important;
+        transition:0.5s ease;
+    }
+    
+    .li-ic:hover{
+        color:#007BB6!important;
+        transition: 0.5s ease;
+    }
+    
+    .gplus-ic:hover{
+        color:#D6492E!important;
+        transition: 0.5s ease;
+    }
+    
+    .tw-ic:hover{
+        color:#1DA1F2!important;
+        transition: 0.5s ease;
+    }
+    
+    .fb-ic:hover{
+        color:#4267B2!important;
+        transition: 0.5s ease;
+    }
+    
+    .legal{
+        color:#DBDBDB !important;
+      }
+      .legal:hover{
+        text-decoration: none !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        text-shadow:#F3F1F1 0 0 3px!important;
+        transition:0.8s ease;
+        color:#F3F1F1 !important;
+      }
+    
+      .notice{
+        position:relative;
+        bottom:70px;
+      }
+    
+      @media only screen and (max-width:767px){
+        a:hover{letter-spacing:0px;}
+        .legal:hover{letter-spacing:0px;}
+      }
+    @media screen and (min-width:768px){
+        a:hover{letter-spacing:0px;}
+      }
+      
+    @media screen and (min-width:992px){
+        a:hover{letter-spacing:1px;}
+        .legal:hover{letter-spacing:1px!important;}
+      }
+      
+    @media screen and (min-width:1200px){
+        a:hover{letter-spacing:1px;}
+        .legal:hover{letter-spacing:1px!important;}
+      }
